@@ -16,7 +16,7 @@ DESCRIPTION = """
 import os
 import logging
 # distance
-from distance import distFunc
+from hdidx.distance import distFunc
 from scipy.io import loadmat
 import numpy as np
 

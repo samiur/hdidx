@@ -9,7 +9,7 @@
 """
 DESCRIPTION = """
 """
-import indexer
-import encoder
-import storage
-import distance
+import hdidx.indexer
+import hdidx.encoder
+import hdidx.storage
+import hdidx.distance

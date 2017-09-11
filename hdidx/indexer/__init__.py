@@ -64,5 +64,5 @@ class Indexer(object):
         """
         raise Exception(self.ERR_INSTAN)
 
-from vq import PQIndexer, IVFPQIndexer
-from hamming import SHIndexer, MIHIndexer
+from hdidx.indexer.vq import PQIndexer, IVFPQIndexer
+from hdidx.indexer.hamming import SHIndexer, MIHIndexer

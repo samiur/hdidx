@@ -10,7 +10,7 @@
 DESCRIPTION = """
 """
 
-import cPickle as pickle
+import pickle
 from struct import pack, unpack
 import numpy as np
 

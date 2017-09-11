@@ -45,8 +45,8 @@ class Storage(object):
         raise Exception("Instance of `Storage` is not allowed!")
 
 
-from mem_storage import MemStorage
-from lmdb_storage import LMDBStorage
+from hdidx.storage.mem_storage import MemStorage
+from hdidx.storage.lmdb_storage import LMDBStorage
 
 
 STORAGE_DIC = {
