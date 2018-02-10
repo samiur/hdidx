@@ -19,7 +19,6 @@ cimport numpy as cnp
 from libc.stdint cimport int8_t, uint8_t, \
     int16_t, uint16_t, int32_t, uint32_t
 import operator
-from itertools import izip as zip
 
 from hdidx import _cext as cext
 from functools import reduce
